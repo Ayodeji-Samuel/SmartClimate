@@ -26,6 +26,24 @@
   <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="vendor/remixicon/remixicon.css" rel="stylesheet">
 
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    .weather-card {
+      background-color: #f8f9fa;
+      border: none;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 10px;
+      text-align: center;
+    }
+    .weather-icon {
+      width: 50px;
+      height: 50px;
+      margin: 10px auto;
+    }
+  </style>
+
   <!-- Template Main CSS File -->
   <link href="css/main.css" rel="stylesheet">
 
@@ -169,70 +187,17 @@
       </div>
     </section><!-- End Why Choose Us Section -->
 
-    <!-- ======= Our Services Section ======= -->
-    <section id="services-list" class="services-list">
-      <div class="container" data-aos="fade-up">
+    <!-- ======= Weekly Weather Forecast ======= -->
+    
 
-        <div class="section-header">
-          <h2>Our Services</h2>
-
-        </div>
-
-        <div class="row gy-5">
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="bi bi-briefcase" style="color: #f57813;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-          </div>
-          <!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist" style="color: #15a04a;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" style="color: #d90769;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0"><i class="bi bi-binoculars" style="color: #15bfbc;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high" style="color: #f5cf13;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week" style="color: #1335f5;"></i></div>
-            <div>
-              <h4 class="title"><a href="#" class="stretched-link">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
+    <div class="container">
+      <h1 class="text-center mt-5">Weekly Weather Forecast for Arusha</h1>
+      <div class="row mt-4" id="weather-cards">
+    
+        <!-- Cards will be dynamically added here -->
+    
       </div>
-    </section><!-- End Our Services Section -->
+    </div>
 
     <!-- ======= Call To Action Section ======= -->
     <section id="call-to-action" class="call-to-action">
@@ -249,95 +214,7 @@
     </section><!-- End Call To Action Section -->
 
     <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
 
-      <div class="container" data-aos="fade-up">
-        <div class="row">
-          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>Powerful Features for <br>Your Business</h3>
-
-            <div class="row gy-4">
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-store-line" style="color: #ffbb2c;"></i>
-                  <span>Easy Cart Features</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-                  <span>Sit amet consectetur adipisicing</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-                  <span>Ipsum Rerum Explicabo</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-                  <span>Easy Cart Features</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-database-2-line" style="color: #47aeff;"></i>
-                  <span>Easy Cart Features</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-                  <span>Sit amet consectetur adipisicing</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-                  <span>Ipsum Rerum Explicabo</span>
-                </div>
-              </div><!-- End Icon List Item-->
-
-              <div class="col-md-6">
-                <div class="icon-list d-flex">
-                  <i class="ri-base-station-line" style="color: #ff5828;"></i>
-                  <span>Easy Cart Features</span>
-                </div>
-              </div><!-- End Icon List Item-->
-            </div>
-          </div>
-          <div class="col-lg-5 position-relative" data-aos="fade-up" data-aos-delay="200">
-            <div class="phone-wrap">
-              <img src="img/iphone.png" alt="Image" class="img-fluid">
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="details">
-        <div class="container" data-aos="fade-up" data-aos-delay="300">
-          <div class="row">
-            <div class="col-md-6">
-              <h4>Labore Sdio Lidui<br>Bonde Naruto</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nostrum molestias doloremque quae delectus odit minima corrupti blanditiis quo animi!</p>
-              <a href="#about" class="btn-get-started">Get Started</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </section><!-- End Features Section -->
 
     <!-- ======= Recent Blog Posts Section ======= -->
     <section id="recent-posts" class="recent-posts">
@@ -496,6 +373,57 @@
 
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    const apiKey = '9fad1809f989bd6b7b0ade8adc7c9a7b';
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const weatherCards = $('#weather-cards');
+    const city = 'Arusha'; // Replace with your city name
+
+    // Function to get weather data for a specific day
+    function getWeatherData(dayIndex) {
+      const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
+      
+      $.ajax({
+        url: apiUrl,
+        method: 'GET',
+        success: function(response) {
+          const weather = response.list[dayIndex];
+          const date = new Date(weather.dt * 1000);
+          const dayName = days[date.getDay()];
+          const dateString = `${date.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`;
+
+          const card = `
+            <div class="col-md">
+              <div class="card weather-card">
+                <div class="card-body">
+                  <h5 class="card-title">${dayName}</h5>
+                  <p class="card-text">${dateString}</p>
+                  <p class="card-text">Temperature: ${weather.main.temp}°C</p>
+                  <img src="http://openweathermap.org/img/w/${weather.weather[0].icon}.png" alt="Weather Icon" class="weather-icon">
+                  <p class="card-text">${weather.weather[0].description}</p>
+                </div>
+              </div>
+            </div>
+          `;
+
+          weatherCards.append(card);
+        },
+        error: function(error) {
+          console.error('Error fetching weather data:', error);
+        }
+      });
+    }
+
+    // Get weather data for each day of the week
+    for (let i = 0; i < 7; i++) {
+      getWeatherData(i * 8); // Fetch data for every 24 hours (8 timeslots per day)
+    }
+  });
+</script>
 
 </body>
 
